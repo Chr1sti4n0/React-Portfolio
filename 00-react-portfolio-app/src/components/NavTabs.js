@@ -1,9 +1,10 @@
 import React from 'react';
-import '../components/Header.css'
+import '../components/NavTabs.css'
 
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -28,9 +29,9 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#projects"
-          onClick={() => handlePageChange('Project')}
+          onClick={() => handlePageChange('Projects')}
 
-          className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
         >
           Projects
         </a>

@@ -1,0 +1,13 @@
+.nav {
+    background-color: #4db8ff;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none; 
+    font-family: 'Gill Sans';
+    color: #003d66;
+    font-size: 22px;
+}  
