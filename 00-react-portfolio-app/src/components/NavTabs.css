@@ -1,8 +1,9 @@
 .nav {
     background-color: #4db8ff;
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
+    justify-content: center;
+    padding: 12px;
 }
 
 .nav a {
@@ -10,4 +11,9 @@
     font-family: 'Gill Sans';
     color: #003d66;
     font-size: 22px;
+    padding-left: 150px;
 }  
+
+.nav a:hover {
+    color: rgb(255, 240, 212);
+}

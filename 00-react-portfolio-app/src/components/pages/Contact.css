@@ -1,0 +1,31 @@
+.label {
+    font-size: 25px;
+    margin-left: .5%;
+}
+
+.form-name {
+    height: 20px;
+    font-size: 20px;
+    margin-left: .5%;
+}
+
+.form-email {
+    height: 20px;
+    font-size: 20px;
+    margin-left: .5%;
+}
+
+.text-area {
+    height: 300px;
+    width: 500px;
+    margin-left: .5%;
+}
+
+.btn-primary {
+    height: 25px;
+    width: 55px;;
+    margin-left: .5%;
+    color: navy;
+    background-color: rgb(205, 223, 255);
+    border-radius: 5px;
+}

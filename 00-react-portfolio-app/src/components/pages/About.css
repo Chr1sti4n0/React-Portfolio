@@ -1,9 +1,28 @@
-.about-me {
-    color: brown;
-    font-family: 'Courier New', Courier, monospace;
-
+.about-me-page {
+    background-color: rgb(221, 221, 221);
 }
-img {
-    height: 100px;
 
+.about-me {
+    color: rgb(23, 33, 90);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 55px; */
+}
+
+img {
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 55px;
+    padding-bottom: 100px;
+}
+
+.story {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 55px;
 }

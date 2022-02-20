@@ -1,13 +1,22 @@
 .footer {
-    text-decoration: none; 
     font-family: 'Gill Sans';
     color: #bee5ff;
     font-size: 22px;
-    justify-content: space-between;
-    padding: 1.5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    margin-top: auto;
-    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
 }
 
+.footer a {
+    color: #8fc9f0;
+    text-decoration: none;   
+    padding: 20px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
