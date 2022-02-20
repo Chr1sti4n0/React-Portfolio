@@ -1,12 +1,13 @@
 .about-me-page {
     background-color: rgb(221, 221, 221);
+    ;
 }
 
 .about-me {
     color: rgb(23, 33, 90);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100px;
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
     /* margin-top: 55px; */
 }
@@ -17,7 +18,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 55px;
-    padding-bottom: 100px;
+    padding-bottom: 280px;
 }
 
 .story {
