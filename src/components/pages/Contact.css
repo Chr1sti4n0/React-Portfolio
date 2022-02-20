@@ -1,4 +1,4 @@
-.label {
+.name-text {
     font-size: 25px;
     margin-left: .5%;
 }
@@ -28,4 +28,10 @@
     color: navy;
     background-color: rgb(205, 223, 255);
     border-radius: 5px;
+}
+
+span {
+    color: rgb(196, 6, 6);
+    font-size: 20px;
+    margin-left: 5px;
 }

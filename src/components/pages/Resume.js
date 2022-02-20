@@ -1,12 +1,12 @@
 import React from 'react';
-// import File from './resume.pdf'
+import '../pages/Resume.css';
 
 function Resume() {
   return (
     <div>
-      <a className='' href='./resume.pdf' download>Download Resume</a>
-      <h3>Proficiencies</h3>
-      <ul>
+      <a className='download-link' href='./resume.pdf' download>Download Resume</a>
+      <h3 className='prof-title'>Proficiencies</h3>
+      <ul className='prof-list'>
         <li>MySQLExpressWeb</li>
         <li>Node.js</li>
         <li>Handlebars</li>

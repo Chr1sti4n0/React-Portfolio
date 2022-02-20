@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <form>
       <div className="form-group">
-        <label className='label'>Name</label>
+        <label className='name-text'>Name</label>
         <br />
         <input
           name="name"
@@ -27,7 +27,7 @@ export default function Contact() {
           id="name"
         />
         <br />
-        <label className='label'>Email</label>
+        <label className='name-text'>Email</label>
         <br />
         <input
           onBlur={handleBlur}
@@ -38,11 +38,12 @@ export default function Contact() {
           id="email"
         />
         <br />
-        <label className='label'>Message</label>
+        <label className='name-text'>Message</label>
         <br />
         <textarea className='text-area'></textarea>
         <br />
         <span>{error}</span>
+        <br />
         {/* Button to Submit Contact Info */}
         <button
           className="btn btn-primary"

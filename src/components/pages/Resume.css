@@ -1,0 +1,29 @@
+.download-link {
+    color: rgb(0, 0, 0);
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+    background-color: rgb(232, 241, 238);
+}
+
+.prof-title {
+    color: rgb(23, 33, 90);
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.prof-list {
+    color: rgb(23, 33, 90);
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-left: 85px;
+    padding-top: 10px;
+}

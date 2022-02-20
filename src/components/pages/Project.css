@@ -8,6 +8,15 @@
     margin: 20px;
 }
 
+.label {
+    border-style:groove;
+    margin: 25px;
+    border-radius: 6px;
+    font-size: 25px;
+    margin-left: .5%;
+    
+}
+
 .label img {
     width: 500px;
     height: 265px;
@@ -58,8 +67,8 @@
 /* Project 1 button */
 .label .btn1 {
     position: absolute;
-    top: 19%;
-    left: 58%;
+    top: 34%;
+    left: 36%;
     font-size: 17px;
     padding: 10px 25px;
     border: none;
@@ -80,8 +89,8 @@
 /* Project 2 button */
 .label .btn2 {
   position: absolute;
-  top: 40%;
-  left: 58%;
+  top: 34%;
+  left: 81%;
   font-size: 17px;
   padding: 10px 25px;
   border: none;
@@ -102,8 +111,8 @@
 /* Project 3 button */
 .label .btn3 {
     position: absolute;
-    top: 60%;
-    left: 58%;
+    top: 57%;
+    left: 36%;
     font-size: 17px;
     padding: 10px 25px;
     border: none;
@@ -124,8 +133,8 @@
   /* Project 4 button */
 .label .btn4 {
     position: absolute;
-    top: 70%;
-    left: 58%;
+    top: 57%;
+    left: 81%;
     font-size: 17px;
     padding: 10px 25px;
     border: none;
@@ -142,3 +151,47 @@
   .label .btn4:hover {
       background-color: rgb(38, 51, 121);
   }
+
+  /* Project 5 button */
+  .label .btn5 {
+    position: absolute;
+    top: 80%;
+    left: 36%;
+    font-size: 17px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(61, 61, 61);
+  }
+  
+  .label .btn5 a {
+      text-decoration: none;
+      color: aliceblue;
+  }
+  
+  .label .btn5:hover {
+      background-color: rgb(38, 51, 121);
+  }
+
+    /* Project 6 button */
+    .label .btn6 {
+        position: absolute;
+        top: 80%;
+        left: 81%;
+        font-size: 17px;
+        padding: 10px 25px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        background-color: rgb(212, 212, 212);
+      }
+      
+      .label .btn6 a {
+          text-decoration: none;
+          color: rgb(68, 68, 68);
+      }
+      
+      .label .btn6:hover {
+          background-color: rgb(128, 150, 184);
+      }
