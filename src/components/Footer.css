@@ -3,7 +3,7 @@
     color: #bee5ff;
     font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: absolute;
+    position:fixed;
     bottom: 0;
     width: 100%;
     display: inline-flex;
