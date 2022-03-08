@@ -1,4 +1,4 @@
-.name-text {
+/* .name-text {
     font-size: 25px;
     margin-left: .5%;
 }
@@ -13,25 +13,33 @@
     height: 20px;
     font-size: 20px;
     margin-left: .5%;
-}
+} */
 
-.text-area {
+/* .text-area {
     height: 300px;
     width: 500px;
     margin-left: .5%;
+} */
+
+.btn-primary5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-.btn-primary {
-    height: 25px;
-    width: 55px;;
-    margin-left: .5%;
-    color: navy;
-    background-color: rgb(205, 223, 255);
-    border-radius: 5px;
-}
+/* .btn-primary5:hover {
+    color: bisque;
+} */
 
-span {
+
+/* span {
     color: rgb(196, 6, 6);
     font-size: 20px;
     margin-left: 5px;
-}
+} */
